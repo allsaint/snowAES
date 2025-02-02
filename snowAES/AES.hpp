@@ -1,5 +1,5 @@
-#ifndef _AES_H_
-#define _AES_H_
+#ifndef _AES_HPP_
+#define _AES_HPP_
 
 #include <cstdio>
 #include <cstring>

@@ -129,10 +129,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AES.cpp" />
-    <ClCompile Include="source.cpp" />
+    <ClCompile Include="BPV.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AES.h" />
+    <ClInclude Include="AES.hpp" />
+    <ClInclude Include="BPV.hpp" />
+    <ClInclude Include="IncludeMe.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
